@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/sap/bc/webdynpro/sap/TCD1006/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>TCD1006</ICF_NAME>
+    <ORIG_NAME>TCD1006</ORIG_NAME>
+    <ICFALTNME>Z01_WINDOW2_DEMO</ICFALTNME>
+   </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>TCD1006</ICF_NAME>
+    <ICF_LANGU>D</ICF_LANGU>
+    <ICF_DOCU>Web-Dynpro-Anwendung z01_window2_demo / Component Z01_DEMO_WD_LEER</ICF_DOCU>
+   </ICFDOCU>
+  </asx:values>
+ </asx:abap>
+</abapGit>

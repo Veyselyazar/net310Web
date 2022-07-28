@@ -1,0 +1,4 @@
+interface ZDEMO
+  public .
+
+endinterface.

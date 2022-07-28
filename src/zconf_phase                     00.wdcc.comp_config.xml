@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="Z01_PHASENMODELL" ConfId="ZCONF_PHASE" ConfType="00" ConfVar="">
+ <View Name="RESULT_VIEW">
+  <Item Name="ROOTCT_URL">
+   <Prop Name="VISIBLE" Final="0 " P13N_MODE="02">~</Prop>
+   <Prop Name="SEMANTIC_COLOR" Final="0 " P13N_MODE="01">04</Prop>
+  </Item>
+  <Item Name="ROOTCT_URL_LBL">
+   <Prop Name="VISIBLE" Final="0 " P13N_MODE="02">01</Prop>
+  </Item>
+ </View>
+</Component>

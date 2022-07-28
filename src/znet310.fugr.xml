@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funktionsgruppe für Service</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZNET310TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZNET310</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_00_GET_SPFLI</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Einen Datensatz aus Spfli lesen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_CARRID</PARAMETER>
+       <TYP>SPFLI-CARRID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_CONNID</PARAMETER>
+       <TYP>SPFLI-CONNID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_SPFLI</PARAMETER>
+       <TYP>SPFLI</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_CARRID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kurzbezeichnung der Fluggesellschaft</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_CONNID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Code der Einzelflugverbindung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_SPFLI</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flugplan</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
